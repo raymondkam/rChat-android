@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andexert.library.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    ripple:rv_color="#10000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/convoRowImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="#1996BE"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/convoRowName"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/convoRowImage"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+</com.andexert.library.RippleView>
